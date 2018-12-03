@@ -63,7 +63,7 @@
       <div id="logo" class="pull-left">
         
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#body"><img src="{{asset('img/rwlogo.png')}}" style="width:220px;height:50px;" alt="" title="" /></a>
+        <a href="#body"><img src="{{asset('img/rwlogo.png')}}" style="width:200px;height:50px;" alt="" title="" /></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -197,7 +197,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Our Clients</h2>
-          <p>We started our business with the goal of helping our friends retire early. Now our clients come from all kinds of backgrounds such as:</p>
+          <p>We started our business with the goal of helping our friends retire early. Now our clients come from all kinds of backgrounds including:</p>
         </div>
 
 
@@ -234,7 +234,7 @@
               <a href="img/portfolio/433.jpg" class="portfolio-popup">
                 <img src="img/portfolio/433.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex with $20k Reno <p><br> Total Cost: $400,000 <p> Rent: $4600/month</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex<p><br> Total Cost: $400,000 <p> Rent: $4600/month</h2></div>
                 </div>
               </a>
             </div>
@@ -245,7 +245,7 @@
               <a href="img/portfolio/442.jpg" class="portfolio-popup">
                 <img src="img/portfolio/442.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Turnkey Student Duplex <p><br> Total Cost: $325,000 <p> Rent: $3600/month </h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Turnkey Duplex <p><br> Total Cost: $325,000 <p> Rent: $3600/month </h2></div>
                 </div>
               </a>
             </div>
@@ -256,7 +256,7 @@
               <a href="img/portfolio/1051.jpg" class="portfolio-popup">
                 <img src="img/portfolio/1051.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex with $80k Reno <p><br> Total Cost: $280,000 <p> Rent: $4000/month Sold for $435k</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex<p><br> Total Cost: $280,000 <p> Rent: $4000/month Sold for $435k</h2></div>
                 </div>
               </a>
             </div>
@@ -267,7 +267,7 @@
               <a href="img/portfolio/68.jpg" class="portfolio-popup">
                 <img src="img/portfolio/68.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Duplex with $10k Reno<p><br> Total Cost: $240,000 <p> Rent: $2450/month </h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Duplex<p><br> Total Cost: $240,000 <p> Rent: $2450/month </h2></div>
                 </div>
               </a>
             </div>
@@ -278,7 +278,7 @@
               <a href="img/portfolio/861.jpg" class="portfolio-popup">
                 <img src="img/portfolio/861.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Single Family Home with $10k Reno<p><br> Total Cost: $135,000 <p> Rent: $1700/month </h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Single Family Home<p><br> Total Cost: $135,000 <p> Rent: $1700/month </h2></div>
                 </div>
               </a>
             </div>
@@ -300,7 +300,7 @@
               <a href="img/portfolio/1176.jpg" class="portfolio-popup">
                 <img src="img/portfolio/1176.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Duplex with $30k Reno<p><br> Total Cost: $230,000 <p> Rent: $2650/month</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Duplex<p><br> Total Cost: $230,000 <p> Rent: $2650/month</h2></div>
                 </div>
               </a>
             </div>
@@ -311,7 +311,7 @@
               <a href="img/portfolio/1184.jpg" class="portfolio-popup">
                 <img src="img/portfolio/1184.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex with $30k Reno So Far<p><br> Total Cost: $235,000 <p> Expected Rent: $3300/month</h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex<p><br> Total Cost: $235,000 <p> Rent: $3300/month</h2></div>
                 </div>
               </a>
             </div>
