@@ -30,6 +30,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/fade.css') }}" rel="stylesheet">
     </head>
 
     <body id="body">
@@ -40,15 +41,15 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">mrosehart@rwholdings.ca</a>
-        <i class="fa fa-phone"></i> +1 (226) 234-3054
+        <i class="fa fa-envelope-o"></i> <a href="mailto:mrosehart@rwholdings.ca">mrosehart@rwholdings.ca</a>
+        <i class="fa fa-phone"></i> Please inquire by email<!--+1 --(226)--234-3054-->
       </div>
       <div class="social-links float-right">
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/mikerosehartYoutube" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/mikerosehart" class="instagram"><i class="fa fa-instagram"></i></a>
         <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://ca.linkedin.com/in/michaelrosehart" class="linkedin"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </section>
@@ -95,7 +96,7 @@
   <section id="intro">
 
     <div class="intro-content">
-      <h2>Creating <span>your</span><br>early retirement!</h2>
+      <h2>Building <span>your</span><br>early retirement!</h2>
       <div>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
@@ -120,8 +121,8 @@
     <section id="about" class="wow fadeInUp">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 retirement">
-            <img src="img/retirement.jpg" style="width:450px;height:400px;" alt="">
+          <div class="col-lg-6 about-img">
+            <img src="img/retirement1.jpg" alt="">
           </div>
 
           <div class="col-lg-6 content">
@@ -199,15 +200,16 @@
           <p>We started our business with the goal of helping our friends retire early. Now our clients come from all kinds of backgrounds such as:</p>
         </div>
 
+
         <div class="owl-carousel clients-carousel">
-          <img src="{{asset('img/jobicons/png/doctor.png')}}" alt="">
-          <img src="{{asset('img/jobicons/png/electrician.png')}}" alt="">
-          <img src="{{asset('img/jobicons/png/manager.png')}}" alt="">
-          <img src="{{asset('img/jobicons/png/pensioner.png')}}" alt="">
-          <img src="{{asset('img/jobicons/png/programmer.png')}}" alt="">
-          <img src="{{asset('img/jobicons/png/athlete.png')}}" alt="">
-          <img src="{{asset('img/jobicons/png/builder.png')}}" alt="">
-          <img src="{{asset('img/jobicons/png/cashier.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/doctor.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/electrician.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/manager.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/pensioner.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/programmer.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/athlete.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/builder.png')}}" alt="">
+          <img style="padding:2px;border:thin solid white;" src="{{asset('img/jobicons/png/cashier.png')}}" alt="">
         </div>
 
       </div>
@@ -434,29 +436,62 @@
       <div class="container">
         <div class="section-header">
           <h2>Our Team</h2>
-          <p>These photos should probably be changed.</p>
+          <p></p>
         </div>
         <div class="row">
+
           <div class="col-lg-6 col-md-12">
             <div class="member">
-              <div class="pic"><img src="{{asset('img/team-11.jpg')}}" alt=""></div>
+
+            <div class="fadeContainer pic">
+                <div class="contentFade">
+                <div class="contentFade-overlay"></div>
+                <img class="contentFade-image" src="{{asset('img/team1121.jpg')}}">
+                    <div class="contentFade-details fadeIn-left">
+                    <h3>Mike</h3>
+                    <br>
+                    <p>Starting from humble beginnings, Mike is fortunate enough to have unlocked financial independence and early retirement at the age of 25 through hardcore saving, frugality, and astute investing (with a 3% SWR - Safe Withdrawal Rate). He loves educating and sharing on his Youtube Channel about all things personal finance, FIRE, Investing, and Real-Estate. He now spends a lot of time with his young family, as well as helping others find FIRE in his local community and online. </p>
+
+                    <p>Before starting RW Management with Wei, Mike worked in consulting. Mike has an HBA from the Richard Ivey School of Business, where he was classmates with Wei. </p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
               <div class="details">
                 <h4>Michael Rosehart</h4>
                 <span>Co-Founder and Chief Executive Officer</span>
+                <!-- add text here later <h5></h5> -->
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.facebook.com/mikerosehartYoutube"><i class="fa fa-facebook"></i></a>
                   <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="https://ca.linkedin.com/in/michaelrosehart"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
           <!--<div class="col-lg-3 col-md-6">-->
+
           <div class="col-lg-6 col-md-12">
             <div class="member">
-              <div class="pic"><img src="{{asset('img/team-22.jpg')}}" alt=""></div>
+
+            <div class="fadeContainer pic">
+                <div class="contentFade">
+                <div class="contentFade-overlay"></div>
+                <img class="contentFade-image" src="{{asset('img/team2211.jpg')}}">
+                    <div class="contentFade-details fadeIn-right">
+                    <h3>Wei</h3>
+                    <br>
+                    <p>As someone who likes analyzing all kinds of investment opportunities, Wei became an eager follower of Mike's real estate adventures since university. A trip in the winter of '16 back to London convinced Wei that real estate in London Ontario was more exciting than algorithmic trading. When not working on real estate, Wei likes to read up on tech startups on crunchbase and play videogames. </p>
+
+                    <p>Before starting RW Management with Mike, Wei did proprietary trading and worked in several tech startups. Wei has an HBA from the Richard Ivey School of Business, where he was classmates with Mike. </p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
               <div class="details">
                 <h4>Yuwei Wang</h4>
                 <span>Co-Founder and President</span>
@@ -464,7 +499,7 @@
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
                   <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/ywang687/"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -527,7 +562,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>67 Acorn Place, London, ON, Canada</address>
+              <address>Please inquire via email</address>
             </div>
           </div>
 
@@ -535,7 +570,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+12262343054">+1 (226) 234-3054</a></p>
+              <p><a href="tel:+12262343054"> Please inquire via email<!--+1 (226) --234-3054--></a></p>
             </div>
           </div>
 
@@ -543,7 +578,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">mrosehart@rwholdings.ca</a></p>
+              <p><a href="mailto:mrosehart@rwholdings.ca">mrosehart@rwholdings.ca</a></p>
             </div>
           </div>
 
@@ -592,7 +627,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Rightway Management</strong>. All Rights Reserved
+        &copy;2018 <strong>Rightway Management Inc</strong>. All Rights Reserved
       </div>
       <div class="credits">
         
