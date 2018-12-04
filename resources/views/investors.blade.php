@@ -63,7 +63,7 @@
       <div id="logo" class="pull-left">
         
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#body"><img src="{{asset('img/rwlogo.png')}}" style="width:200px;height:50px;" alt="" title="" /></a>
+        <a href="#body"><img src="{{asset('img/rwlogo.png')}}" alt="" title="" /></a>
       </div>
 
       <nav id="nav-menu-container">
