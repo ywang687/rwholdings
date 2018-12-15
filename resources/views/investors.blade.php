@@ -122,7 +122,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
-            <img src="img/retirement1.jpg" alt="">
+            <img src="{{asset('img/retirement1.jpg')}}" alt="">
           </div>
 
           <div class="col-lg-6 content">
@@ -232,7 +232,7 @@
          <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/433.jpg" class="portfolio-popup">
-                <img src="img/portfolio/433.jpg" alt="">
+                <img src="{{asset('img/portfolio/433.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex<p><br> Total Cost: $400,000 <p> Rent: $4600/month</h2></div>
                 </div>
@@ -243,7 +243,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/442.jpg" class="portfolio-popup">
-                <img src="img/portfolio/442.jpg" alt="">
+                <img src="{{asset('img/portfolio/442.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Turnkey Duplex <p><br> Total Cost: $325,000 <p> Rent: $3600/month </h2></div>
                 </div>
@@ -254,7 +254,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/1051.jpg" class="portfolio-popup">
-                <img src="img/portfolio/1051.jpg" alt="">
+                <img src="{{asset('img/portfolio/1051.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex<p><br> Total Cost: $280,000 <p> Rent: $4000/month Sold for $435k</h2></div>
                 </div>
@@ -265,7 +265,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/68.jpg" class="portfolio-popup">
-                <img src="img/portfolio/68.jpg" alt="">
+                <img src="{{asset('img/portfolio/68.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Duplex<p><br> Total Cost: $240,000 <p> Rent: $2450/month </h2></div>
                 </div>
@@ -276,7 +276,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/861.jpg" class="portfolio-popup">
-                <img src="img/portfolio/861.jpg" alt="">
+                <img src="{{asset('img/portfolio/861.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Single Family Home<p><br> Total Cost: $135,000 <p> Rent: $1595/month </h2></div>
                 </div>
@@ -287,7 +287,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/126.jpg" class="portfolio-popup">
-                <img src="img/portfolio/126.jpg" alt="">
+                <img src="{{asset('img/portfolio/126.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Turnkey Student Rental<p><br> Total Cost: $275,000 <p> Rent: $2750/month</h2></div>
                 </div>
@@ -298,7 +298,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/1176.jpg" class="portfolio-popup">
-                <img src="img/portfolio/1176.jpg" alt="">
+                <img src="{{asset('img/portfolio/1176.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Duplex<p><br> Total Cost: $230,000 <p> Rent: $2650/month</h2></div>
                 </div>
@@ -309,7 +309,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/portfolio/1184.jpg" class="portfolio-popup">
-                <img src="img/portfolio/1184.jpg" alt="">
+                <img src="{{asset('img/portfolio/1184.jpg')}}" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Triplex<p><br> Total Cost: $235,000 <p> Rent: $3300/month</h2></div>
                 </div>
