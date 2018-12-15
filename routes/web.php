@@ -12,6 +12,10 @@
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/rwinvestors', function () {
     return view('investors');
 });
 

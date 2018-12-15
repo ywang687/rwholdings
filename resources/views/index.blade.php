@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <title>Rightway Management - Investing in London Real Estate</title>
+        <title>Rightway Management</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -40,16 +40,11 @@
   ============================-->
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:mrosehart@rwholdings.ca">mrosehart@rwholdings.ca</a>
+      <div class="contact-info float-left"> <!-- we need a new email -->
+        <i class="fa fa-envelope-o"></i> <a href="mailto:  "></a>
         <i class="fa fa-phone"></i> Please inquire by email<!--+1 --(226)--234-3054-->
       </div>
       <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.facebook.com/mikerosehartYoutube" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.instagram.com/mikerosehart" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="https://ca.linkedin.com/in/michaelrosehart" class="linkedin"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </section>
@@ -70,10 +65,13 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#body">Home</a></li>
           <li><a href="#about">About Us</a></li>
+
+          <!--
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          
+          -->
+
           <!--
           <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
@@ -96,10 +94,10 @@
   <section id="intro">
 
     <div class="intro-content">
-      <h2>Building <span>your</span><br>early retirement!</h2>
+      <h2>Helping you discover your next <span>home</span><br></h2>
       <div>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+        <a href="#" class="btn-get-started scrollto">Apply</a>
+        <a href="#portfolio" class="btn-projects scrollto">Our Rentals</a>
       </div>
     </div>
 
@@ -122,17 +120,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
-            <img src="img/retirement1.jpg" alt="">
+            <img src="img/cozy.jpg" alt="">
           </div>
 
           <div class="col-lg-6 content">
-            <h2>Unlock financial independence through real estate investment</h2>
-            <h3>We have experienced every pitfall of real estate investment and management-so you don't have to</h3>
+            <h2>Stress free living with landlords who care</h2>
+            <h3>We work with landlords who expect us to take care of properties, and treat them like our own.</h3>
 
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i> We take care of everything, from purchase to sale or refinance </li>
-              <li><i class="ion-android-checkmark-circle"></i> The deal is structured so that most of our money is made when you make it, aligning our interests perfectly with yours </li>
-              <li><i class="ion-android-checkmark-circle"></i> With good financial habits, you can easily unlock early retirement with a few rental properties! </li>
+              <li><i class="ion-android-checkmark-circle"></i> Guaranteed quick communication for issues via email and text, emergencies by phone </li>
+              <li><i class="ion-android-checkmark-circle"></i> Flexible in our offerings, you can ask for almost anything and we will provide it at reasonable rates </li>
+              <li><i class="ion-android-checkmark-circle"></i> Wide in our reach, qualified tenants can always find a place in our rentals, no matter the time of the year </li>
             </ul>
 
           </div>
@@ -144,6 +142,8 @@
     <!--==========================
       Services Section
     ============================-->
+
+    <!--
     <section id="services">
       <div class="container">
         <div class="section-header">
@@ -188,11 +188,18 @@
         </div>
 
       </div>
-    </section><!-- #services -->
+    </section>
+
+
+    -->
+
+    <!-- #services -->
 
     <!--==========================
       Clients Section
     ============================-->
+
+    <!--
     <section id="clients" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
@@ -213,11 +220,17 @@
         </div>
 
       </div>
-    </section><!-- #clients -->
+    </section>
+
+    -->
+
+    <!-- #clients -->
 
     <!--==========================
       Our Portfolio Section
     ============================-->
+
+    <!--
     <section id="portfolio" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
@@ -278,7 +291,7 @@
               <a href="img/portfolio/861.jpg" class="portfolio-popup">
                 <img src="img/portfolio/861.jpg" alt="">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp">Single Family Home<p><br> Total Cost: $135,000 <p> Rent: $1595/month </h2></div>
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Single Family Home<p><br> Total Cost: $135,000 <p> Rent: $1700/month </h2></div>
                 </div>
               </a>
             </div>
@@ -324,7 +337,10 @@
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section>
+
+    -->
+    <!-- #portfolio -->
 
     <!--==========================
       Testimonials Section
@@ -432,6 +448,8 @@
     <!--==========================
       Our Team Section
     ============================-->
+
+    <!--
     <section id="team" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
@@ -458,52 +476,9 @@
                 </div>
             </div>
 
-              <div class="details">
-                <h4>Michael Rosehart</h4>
-                <span>Co-Founder and Chief Executive Officer</span>
-                <!-- add text here later <h5></h5> -->
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href="https://www.facebook.com/mikerosehartYoutube"><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href="https://ca.linkedin.com/in/michaelrosehart"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          -->
 
-          <!--<div class="col-lg-3 col-md-6">-->
 
-          <div class="col-lg-6 col-md-12">
-            <div class="member">
-
-            <div class="fadeContainer pic">
-                <div class="contentFade">
-                <div class="contentFade-overlay"></div>
-                <img class="contentFade-image" src="{{asset('img/team2211.jpg')}}">
-                    <div class="contentFade-details fadeIn-right">
-                    <h3>Wei</h3>
-                    <br>
-                    <p>As someone who likes analyzing all kinds of investment opportunities, Wei became an eager follower of Mike's real estate adventures since university. A trip in the winter of '16 back to London convinced Wei that real estate in London Ontario was more exciting than algorithmic trading. When not working on real estate, Wei likes to read up on tech startups on crunchbase and play videogames. </p>
-
-                    <p>Before starting RW Management with Mike, Wei did proprietary trading and worked in several tech startups. Wei has an HBA from the Richard Ivey School of Business, where he was classmates with Mike. </p>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-              <div class="details">
-                <h4>Yuwei Wang</h4>
-                <span>Co-Founder and President</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href="https://www.linkedin.com/in/ywang687/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <!-- for future partners
           <div class="col-lg-3 col-md-6">
@@ -539,12 +514,7 @@
           </div>
 
       -->
-        </div>
-
-        
-
-      </div>
-    </section><!-- #team -->
+   <!-- #team -->
 
     <!--==========================
       Contact Section
@@ -578,7 +548,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:mrosehart@rwholdings.ca">mrosehart@rwholdings.ca</a></p>
+              <p><a href="mailto:">Only provided to current tenants</a></p>
             </div>
           </div>
 
